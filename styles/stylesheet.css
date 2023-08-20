@@ -4,7 +4,7 @@ body{margin:0}
     position: relative;
     left: 3%;
     display: block;
-    height: 100%;
+    height: 6vw;
 }
 .nav{
     position: sticky;
@@ -33,6 +33,7 @@ body{margin:0}
     display:flex;
     border-right: solid black 1px;
     width: 33%;
+    font-size: 2vw;
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -82,5 +83,5 @@ a{
 html{
     scroll-behavior: smooth;
     font-family:Verdana;
-    font-size:large;
+    font-size:2vw;
 }
