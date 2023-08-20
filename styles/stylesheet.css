@@ -23,7 +23,7 @@ body{margin:0}
 .scrolled-nav{
     background-color: rgb(105,63,83);
     border-bottom: solid rgb(69, 42, 55) 2px;
-    box-shadow: 0px 0px 15px 5px #888;
+    box-shadow: 0px 0px 15px 5px #242424;
     animation: fadeIn 1s;
     -webkit-animation: fadeIn 1s;
     -moz-animation: fadeIn 1s;
