@@ -1,29 +1,74 @@
 body{margin:0}
 
+.pclog{
+    position: relative;
+    left: 3%;
+    display: block;
+    height: 100%;
+}
 .nav{
     position: sticky;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
     top: 0px;
+    height: 40px;
     z-index: 3;
 }
 .bg{
     position:absolute;
-    width: 100%;
+    width:100%;
+    height: 80%;
+    object-fit:cover;
     margin-top: 0px;
     top:0px;
 }
+.links{
+    position: relative;
+    left: 3%;
+}
 .nav-cont{
+    display:flex;
+    border-right: solid black 1px;
+    width: 33%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
     color: aliceblue;
     text-decoration: none;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.downloader{
+    display: flex;
+    position: relative;
+    right:2% ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(144,185,222);
+    height: 100%;
+    width: 15%;
+    border-radius: 30px;
+}
+a{
+    color: aliceblue;
+    text-decoration:solid;
+    font-family:Verdana;
+    font-size:large;
+    font-weight: 500;
+}
+.links{
+    display: flex;
+    width: 50%;
+}
 .scrolled-nav{
+    position:sticky;
     background-color: rgb(105,63,83);
-    border-bottom: solid rgb(69, 42, 55) 2px;
-    box-shadow: 0px 0px 15px 5px #242424;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 8px 5px #00000072;
     animation: fadeIn 1s;
     -webkit-animation: fadeIn 1s;
     -moz-animation: fadeIn 1s;
@@ -33,4 +78,9 @@ body{margin:0}
 @keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1;}
+}
+html{
+    scroll-behavior: smooth;
+    font-family:Verdana;
+    font-size:large;
 }
