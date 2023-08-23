@@ -1,5 +1,12 @@
-body{margin:0}
+body{margin:0; background-color: rgb(3,0,31);}
 
+@font-face {
+    font-family: 'cybergameregular';
+    src: url('./fonts/cybergame-regular_italic-webfont.woff2') format('woff2'),
+         url('./fonts/cybergame-regular_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 .pclog{
     position: relative;
     left: 3%;
@@ -21,7 +28,7 @@ body{margin:0}
 .bg{
     position:absolute;
     width:100%;
-    height: 80%;
+    height: 100%;
     object-fit:cover;
     margin-top: 0px;
     top:0px;
@@ -30,9 +37,28 @@ body{margin:0}
     position: relative;
     left: 3%;
 }
+.name-special{
+    color: rgb(235, 12, 112);
+}
+.greeting{
+    position: relative;
+    color: white;
+    font-family:'cybergameregular';
+    top: 10%;
+    left: 7%;
+    z-index: 10;
+    font-size: 15vh;
+}
+.cvr{
+    top:0;
+    position: absolute;
+    z-index: 2;
+    height:80%;
+    width: 100%;
+}
 .nav-cont{
     display:flex;
-    border-right: solid black 1px;
+    border-right: solid rgb(255, 255, 255) 4px;
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -49,7 +75,7 @@ body{margin:0}
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color:rgb(144,185,222);
+    background-color:rgb(84,174,236);
     height: 100%;
     width: 15%;
     border-radius: 30px;
@@ -67,7 +93,7 @@ a{
 }
 .scrolled-nav{
     position:sticky;
-    background-color: rgb(105,63,83);
+    background-color: rgb(192,2,89);
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 0px 8px 5px #00000072;
     animation: fadeIn 1s;
