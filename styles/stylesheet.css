@@ -11,16 +11,18 @@ body{margin:0; background-color: rgb(3,0,31);}
     .greeting{
         font-size: 490% ;
         padding-left: 0;
+        font-weight: 500;
     }
     .downloader{
         font-size: 70%;
     }
-  }
+}
 @media screen and (max-width: 280px) {
     .greeting{
         font-size: 330% ;
         padding-left: 0;
-        top:25%
+        top:25%;
+        font-weight: 300;
         
     }
     .downloader{
@@ -62,10 +64,10 @@ body{margin:0; background-color: rgb(3,0,31);}
     color: rgb(235, 12, 112);
 }
 .greeting{
-    position: inherit;
+    position: absolute;
     color: white;
     font-family:'cybergameregular';
-    z-index: 10;
+    z-index: 1;
 }
 h1{
     top: 15%;
@@ -73,13 +75,16 @@ h1{
     font-size: 700%;
 }
 .cvr{
+    border: solid;
     top:0;
+    display: flex;
     position: absolute;
     z-index: 0;
     height:80%;
     width: 100%;
     overflow:hidden;
-    justify-items: center;
+    padding: 0;
+    flex-direction: row;
 }
 .nav-cont{
     display:flex;
