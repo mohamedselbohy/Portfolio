@@ -44,16 +44,16 @@ body{margin:0; background-color: rgb(3,0,31);}
     position: relative;
     color: white;
     font-family:'cybergameregular';
-    top: 10%;
+    top: 7%;
     left: 7%;
     z-index: 10;
-    font-size: 15vh;
+    font-size: 700%;
 }
 .cvr{
     top:0;
     position: absolute;
     z-index: 2;
-    height:80%;
+    /* height:80%; */
     width: 100%;
 }
 .nav-cont{
