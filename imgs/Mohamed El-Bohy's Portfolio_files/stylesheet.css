@@ -7,12 +7,12 @@ body{margin:0; background-color: rgb(3,0,31);}
     font-weight: normal;
     font-style: normal;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width:700px){
     .greeting{
-        font-size: 530% ;
-        padding-left: 0;
+        top:0;
+        
     }
-  }
+}
 .pclog{
     position: relative;
     left: 3%;
@@ -38,7 +38,6 @@ body{margin:0; background-color: rgb(3,0,31);}
     object-fit:cover;
     margin-top: 0px;
     top:0px;
-    z-index: -4;
 }
 .links{
     position: relative;
@@ -50,13 +49,10 @@ body{margin:0; background-color: rgb(3,0,31);}
 .greeting{
     position: inherit;
     color: white;
-    top: 10%;
     font-family:'cybergameregular';
+    padding: 5%;
     z-index: 10;
-}
-h1{
-    padding: 8%;
-    font-size: 700%;
+    font-size: 15vh;
 }
 .cvr{
     top:0;
@@ -65,7 +61,6 @@ h1{
     height:80%;
     width: 100%;
     overflow:hidden;
-    justify-items: center;
 }
 .nav-cont{
     display:flex;
