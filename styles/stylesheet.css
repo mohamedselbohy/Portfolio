@@ -16,9 +16,9 @@ body{margin:0; background-color: rgb(3,0,31);}
         font-size: 70%;
     }
   }
-@media screen and (max-width: 250px) {
+@media screen and (max-width: 280px) {
     .greeting{
-        font-size: 300% ;
+        font-size: 330% ;
         padding-left: 0;
         top:25%
         
@@ -68,7 +68,7 @@ body{margin:0; background-color: rgb(3,0,31);}
     z-index: 10;
 }
 h1{
-    top: 10%;
+    top: 15%;
     padding: 5%;
     font-size: 700%;
 }
