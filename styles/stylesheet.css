@@ -9,20 +9,32 @@ body{margin:0; background-color: rgb(3,0,31);}
 }
 @media screen and (max-width: 700px) {
     .greeting{
-        font-size: 490% ;
+        font-size: 430% ;
         padding-left: 0;
         font-weight: 500;
-        top:6%
+        top:26%
     }
     .downloader{
         font-size: 70%;
     }
 }
+@media screen and (max-width: 309px) {
+    .greeting{
+        font-size: 330% ;
+        padding-left: 0;
+        top:27%;
+        font-weight: 300;
+        
+    }
+    .downloader{
+        font-size: 50%;
+    }
+  }
 @media screen and (max-width: 280px) {
     .greeting{
         font-size: 330% ;
         padding-left: 0;
-        top:25%;
+        top:17%;
         font-weight: 300;
         
     }
