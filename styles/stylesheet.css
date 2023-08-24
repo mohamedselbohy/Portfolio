@@ -57,7 +57,7 @@ body{margin:0; background-color: rgb(3,0,31);}
     align-items: center;
     padding: 7px;
     top: 0px;
-    height: 40px;
+    height: 6vh;
     z-index: 3;
 }
 .bg{
@@ -85,7 +85,7 @@ body{margin:0; background-color: rgb(3,0,31);}
 h1{
     top: 15%;
     padding: 5%;
-    font-size: 700%;
+    font-size: 17vh;
 }
 .cvr{
     position: absolute;
@@ -101,7 +101,7 @@ h1{
 }
 .nav-cont{
     display:flex;
-    border-right: solid rgb(255, 255, 255) 4px;
+    border-right: solid rgb(255, 255, 255) 2px;
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -128,7 +128,7 @@ h1{
     height:100vh;
     width: 100%;
     overflow:hidden;
-    padding: 0;
+    padding-top: -vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -217,7 +217,7 @@ a{
     color: aliceblue;
     text-decoration:solid;
     font-family:Verdana;
-    font-size:100%;
+    font-size:2.5vh;
     font-weight: 500;
 }
 .links{
@@ -227,9 +227,17 @@ a{
 .skills-title{
     margin-top: 10%;
     margin-bottom: 0%;
-    font-size: 230%;
+    font-size: 4.7vh;
     font-weight: 200;
     color: rgb(250, 0, 79);
+}
+.porttitle{
+    margin-top: -4vh;
+    margin-bottom: 0%;
+    font-size: 4.7vh;
+    font-weight: 200;
+    color: rgb(250, 0, 79);
+    
 }
 .scrolled-nav{
     position:sticky;
@@ -242,16 +250,88 @@ a{
     -o-animation: fadeIn 1s;
     -ms-animation:fadeIn 1s;
 }
+.back-nav{
+    position: sticky;
+    animation: fadeOut 0.4s;
+    -webkit-animation: fadeOut 0.4s;
+    -moz-animation: fadeOut 0.4s;
+    -o-animation: fadeOut 0.4s;
+    -ms-animation:fadeOut 0.4s;
+
+}
 @keyframes fadeIn {
     0% {background-color: rgba(192, 2, 87, 0);}
     100% {background-color: rgb(192,2,89);}
+}
+@keyframes fadeOut {
+    0% {background-color: rgb(192,2,89);}
+    100% {background-color: rgba(192, 2, 87, 0);}
 }
 @keyframes fullcol {
     0% {background-color: rgb(157, 3, 52, 0.314);}
     100% {background-color: rgb(157, 3, 52);}
 }
+@keyframes fadeopt {
+    0% {background-color: rgba(27, 54, 255, 0.257)}
+    100% {background-color: rgba(27, 54, 255, 0.569)}
+}
 html{
     scroll-behavior: smooth;
     font-family: 'cybergameregular';
     font-size:70%;
+}
+.option-container{
+    display: flex;
+    height: 5.5vh;
+    width: 44vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.option{
+    display: flex;
+    border-radius: 0 3vh 0 0 ;
+    width: 9vw;
+    height:5.5vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(157, 3, 52);
+    font-size: 1.9vh;
+    background-color: rgba(27, 54, 255, 0.257);
+}
+.option:hover{
+    cursor: pointer;
+    background-color: rgba(27, 54, 255, 0.569);
+    animation: fadeopt 0.5s;
+    -webkit-animation: fadeopt 0.5s;
+    -moz-animation: fadeopt 0.5s;
+    -o-animation: fadeopt 0.5s;
+    -ms-animation:fadeopt 0.5s;
+}
+.selected{
+    border-radius: 1vh 1vh 1vh 1vh;
+    height: 7vh;
+    width: 9vw;
+    
+}
+.projects{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw;
+    column-gap: 4vw;
+    row-gap: 4vw;
+}
+.projlink{
+    display: inline-grid;
+    width: 16vw;
+    height: 27vh;
+    border-radius: 3vw 0vw 0vw 0vw;
+    background-color: rgba(157, 3, 52, 0.314);
+    justify-content: center;
+}
+.projtitle{
+    font-family: 'cybergameregular';
+    font-weight: 300;
+    font-size: 4vh;
+    color: rgb(78, 109, 188);
 }
