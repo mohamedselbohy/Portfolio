@@ -1,4 +1,4 @@
-body{margin:0; background-color: rgb(3,0,31);}
+body{margin:0; background-color: rgb(3,0,31); height: 800vh;}
 
 @font-face {
     font-family: 'cybergameregular';
@@ -88,15 +88,15 @@ h1{
     font-size: 700%;
 }
 .cvr{
-    border: solid;
+    position: absolute;
     top:0;
     display: flex;
-    position: absolute;
     z-index: 0;
-    height:80%;
-    width: 100%;
+    height:100vh;
+    width: 100vw;
     overflow:hidden;
-    padding: 0;
+    padding-bottom: 51px;
+    margin-bottom: 0;
     flex-direction: row;
 }
 .nav-cont{
@@ -111,19 +111,88 @@ h1{
     text-decoration: none;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.skills{
+    margin-top: 100vh;
+    display: flex;
+    height:100vh;
+    width: 100vw;
+    overflow:hidden;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.portfolio{
+    display: flex;
+    height:100vh;
+    width: 100vw;
+    overflow:hidden;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid white;
+}
+#service-subtitle{
+    margin-top: 0%;
+    padding-top: 0;
+    font-size: 6vw;
+    font-weight: 300;
+    color:rgba(27, 54, 255, 0.447);
+    margin-bottom: 5vh;
+    padding-bottom: 0;
+}
+.skill-container{
+    margin-top: 0;
+    height: 23vw;
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.skill-box{
+    width: 23vw;
+    height:100%;
+    border-radius: 3vw 0vw 0vw 0vw;
+    background-color: rgba(157, 3, 52, 0.541);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .downloader{
     display: flex;
     position: relative;
+    cursor: pointer;
     right:2% ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: 0;
     background-color:rgb(78, 109, 188);
     height: 100%;
     width: 20%;
     border-radius: 30px;
     box-shadow: 0px 0px 8px 5px rgba(5, 27, 195, 0.447);
+}
+.skill-icon{
+    margin-top:17%;
+    width:5vw;
+    opacity: 80%;
+    margin-bottom: -5%;
+}
+.skill-title{
+    margin-top: 10%;
+    margin-bottom: 0%;
+    font-size: 2.7vw;
+    font-weight: 150;
+    color: rgb(3,0,31);
+}
+.skill-description{
+    font-size:2vw;
+    color:rgba(250, 0, 79, 0.755);
+    font-weight: 100;
 }
 a{
     color: aliceblue;
@@ -135,6 +204,13 @@ a{
 .links{
     display: flex;
     width: 50%;
+}
+.skills-title{
+    margin-top: 10%;
+    margin-bottom: 0%;
+    font-size: 230%;
+    font-weight: 200;
+    color: rgb(250, 0, 79);
 }
 .scrolled-nav{
     position:sticky;
