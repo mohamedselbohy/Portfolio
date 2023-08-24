@@ -44,22 +44,22 @@ let selector=0
 let projects =[
     [
         {
-            img:"../imgs/encryption.png",
+            img:"./imgs/encryption.png",
             header:"Aes Encryption",
             link:"https://github.com/mohamedselbohy/AES_encryption-decryption"
         },
         {
-            img:"../imgs/tic-tac-toe.png",
+            img:"./imgs/tic-tac-toe.png",
             header:"tic-tac-toe",
             link:"https://github.com/mohamedselbohy/tic-tac-toe"
         },
         {
-            img:"../imgs/paint-palette.png",
+            img:"./imgs/paint-palette.png",
             header:"Paint for kids",
             link:"https://github.com/mohamedselbohy/project-paint-for-kids-finale"
         },
         {
-            img:"../imgs/gear.png",
+            img:"./imgs/gear.png",
             header:"Process Scheduler",
             link:"https://github.com/mohamedselbohy/Process_Scheduler"
         }
@@ -68,14 +68,14 @@ let projects =[
     
     [
         {
-            img:"../imgs/encryption.png",
+            img:"./imgs/encryption.png",
             header:"Aes Encryption",
             link:"https://github.com/mohamedselbohy/AES_encryption-decryption"
         }
 ],
 [
         {
-            img:"../imgs/tic-tac-toe.png",
+            img:"./imgs/tic-tac-toe.png",
             header:"tic-tac-toe",
             link:"https://github.com/mohamedselbohy/tic-tac-toe"
         }
@@ -83,12 +83,12 @@ let projects =[
     ],
     [
         {
-            img:"../imgs/paint-palette.png",
+            img:"./imgs/paint-palette.png",
             header:"Paint for kids",
             link:"https://github.com/mohamedselbohy/project-paint-for-kids-finale"
         },
         {
-            img:"../imgs/gear.png",
+            img:"./imgs/gear.png",
             header:"Process Scheduler",
             link:"https://github.com/mohamedselbohy/Process_Scheduler"
         }
