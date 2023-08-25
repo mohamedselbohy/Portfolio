@@ -252,7 +252,7 @@ a{
 }
 .recommendations{
     display: flex;
-    margin-top: -27vh;
+    margin-top: -20vh;
     height:120vh;
     width: 100%;
     overflow:hidden;
