@@ -78,7 +78,12 @@ let projects =[
             img:"imgs/tic-tac-toe.png",
             header:"tic-tac-toe",
             link:"https://github.com/mohamedselbohy/tic-tac-toe"
-        }
+        },
+    {
+        img:"imgs/gear.png",
+        header:"BlogPosts",
+        link:"https://github.com/mohamedselbohy/blogposts"
+    }
         
     ],
     [
