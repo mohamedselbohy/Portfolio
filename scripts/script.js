@@ -56,6 +56,10 @@ let projects =[
         img:"imgs/gear.png",
         header:"BlogPosts",
         link:"https://github.com/mohamedselbohy/blogposts"
+    },{
+        img:"imgs/gear.png",
+        header:"ShootKortak",
+        link:"https://github.com/AbdallahSalah003/Shoot-Kortak-App"
     },
         {
             img:"imgs/paint-palette.png",
@@ -87,7 +91,12 @@ let projects =[
         img:"imgs/gear.png",
         header:"BlogPosts",
         link:"https://github.com/mohamedselbohy/blogposts"
-    }
+    },
+    {
+        img:"imgs/gear.png",
+        header:"ShootKortak",
+        link:"https://github.com/AbdallahSalah003/Shoot-Kortak-App"
+    },
         
     ],
     [
